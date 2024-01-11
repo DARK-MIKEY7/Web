@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Website</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #222;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      background-color: #333;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #555;
+      padding: 0.5em;
+    }
+
+    nav a {
+      color: #06ffda;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2em;
+      transition: color 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      color:#00bcd4;
+    }
+
+    section {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 50px;
+      background-color: #333;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+
+    .animated-box {
+      width: 80px;
+      height: 80px;
+      background-color: #00bcd4;
+      margin: 80px auto;
+      animation: moveAnimation 1s ease-in-out infinite alternate;
+    }
+
+    @keyframes moveAnimation {
+      0% {
+        transform: translateY(0);
+      }
+
+      100% {
+        transform: translateY(100px);
+      }
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>MIKEY WEBSITE 🕸</h1>
+  </header>
+
+  <nav>
+    <a href="#Home🏠">Home🏠</a>
+    <a href="#Vice Pre">Vice Pre</a>
+    <a href="#Special">Special</a>
+    <a href="#"></a>
+  </nav>
+  
+  <section id="Home🏠">
+    <h2> HOME </h2>
+    <p>THANKS FOR VISITING MY WEBSITE SIR/MAM THIS NOT DONE YET</p>
+  </section>
+  
+ <section id="Vice Pre">
+    <h2> VICE PRESIDENT</h2>
+    <p>THE VICE PRESIDENT OF THIS THIS WEBSITE IS G.PRIYADARSHINI</p>
+  </section>
+  
+  <section id="Special">
+    <h2>SPECIAL</h2>
+    <p>SPECIAL THANKS TO G. PRIYADARSHI   , SINDIL SIR   AND   R. TAMILARASU</p>
+  </section>
+  
+<section>
+    <div class="animated-box"></div>
+  </section>
+  
+
+  
+ 
+
+  <footer>
+    &copy; CREATED , PROGRAMMED , DESIGNED , AND LAUNCHED BY PRAKASH
+  </footer>
+</body>
+
+</html>
